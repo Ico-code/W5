@@ -11,11 +11,21 @@ header {
   left: 0px;
   right: 0px;
   z-index: 100;
+  padding: 10px 20px;
+}
+footer p {
+  padding: 10px 20px;
 }
 #contentbox {
     max-width: 800px;
     margin-right: auto;
     margin-left: auto;
+}
+.contentbox {
+    max-width: 1400px;
+    margin-right: auto;
+    margin-left: auto;
+    box-sizing: border-box;
 }
 nav {
     background-color: rgba(34, 133, 133, 0.5);
